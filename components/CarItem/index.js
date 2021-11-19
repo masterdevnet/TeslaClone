@@ -29,6 +29,12 @@ const CarItem = (props) => {
                         console.warn('O pedido personalizado foi pressionado ')
                     }}
                 />
+                <StyledButton type="secondary"
+                    content={'Estoque Existente '}
+                    onPress={() => {
+                        console.warn("O inventário existente foi pressionado ")
+                    }}
+                />
             </View>
 
         </View>
