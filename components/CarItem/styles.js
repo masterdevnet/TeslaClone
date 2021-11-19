@@ -28,8 +28,8 @@ const styles = StyleSheet.create ({
         position: 'absolute',
     },
     buttonsContainer: {
-        position: 'absoluite',
-        botton: 50,
+        position: 'absolute',
+        bottom: 50,
         width: '100%',
     },
 });
